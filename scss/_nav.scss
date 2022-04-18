@@ -1,0 +1,38 @@
+$verde: #92be3e;
+$barlow: "Barlow", sans-serif;
+$lora: "Lora", serif;
+
+nav {
+  ul {
+    display: inline;
+    margin-left: 600px;
+    font-family: $barlow;
+    margin-top: -60px;
+    justify-items: end;
+  }
+  .collapse.navbar-collapse{
+    justify-content: end;
+  }
+  button{
+    color: #fff;
+  }
+  .logo {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+  }
+  .nav-item.foto {
+    margin-left: 50px;
+  }
+  span {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    p {
+      margin-top: -25px;
+      margin-left: 225px;
+    }
+  }
+}

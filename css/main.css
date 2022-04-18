@@ -1,0 +1,1525 @@
+header {
+  max-width: 1440px;
+  height: 600px;
+  background-size: cover; }
+  header h1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-size: 64px;
+    margin-left: 150px;
+    font-family: "Lora", serif; }
+  header .line {
+    height: 100px;
+    width: 300px;
+    margin-top: -70px;
+    margin-left: 150px;
+    margin-bottom: 60px; }
+  header a.link {
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: -300px;
+    margin-top: 150px; }
+  header a.links {
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 150px; }
+  header .subtitulo {
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: -80px; }
+
+header.index h1 {
+  margin-right: 450px; }
+
+header.index .parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  color: #ffffff; }
+  header.index .parent ul {
+    margin-top: 150px; }
+    header.index .parent ul li {
+      list-style-type: none;
+      text-align: center; }
+    header.index .parent ul a {
+      text-decoration: none;
+      color: #ffffff; }
+      header.index .parent ul a .small {
+        font-size: 12px; }
+      header.index .parent ul a .strong {
+        font-size: 20px;
+        font-weight: 700; }
+
+header.islas {
+  max-width: 1440px;
+  height: 600px;
+  background-size: cover;
+  background-image: url(../media/wpp4_opt.jpg); }
+
+header.puerto-ch {
+  max-width: 1440px;
+  height: 600px;
+  background-size: cover;
+  background-image: url(../media/wpp_opt.jpg); }
+
+header.planner {
+  max-width: 1440px;
+  height: 600px;
+  background-size: cover;
+  background-image: url(../media/wpp5_opt.jpg); }
+
+header.paquetes {
+  background-image: none;
+  background-color: #ffffff;
+  margin-bottom: -450px; }
+  header.paquetes h1 {
+    color: black; }
+
+header.contacto-formulario {
+  max-height: 30px;
+  background-color: #ffffff; }
+
+header.destino {
+  background-image: url(../media/wpp4.jpg); }
+
+header.programas {
+  background-image: url(../media/wpp6.jpg); }
+
+header.manihuales {
+  background-image: url(../media/destinos/manihuales-banner.jpg); }
+
+header.puertoay {
+  background-image: url(../media/destinos/puerto-aysen-banner.jpg); }
+
+header.islas {
+  background-image: url(../media/destinos/islas-huichas-banner.jpg); }
+
+header.puerto-ch {
+  background-image: url(../media/destinos/puerto-chacabuco-banner.jpg); }
+
+nav ul {
+  display: inline;
+  margin-left: 600px;
+  font-family: "Barlow", sans-serif;
+  margin-top: -60px;
+  justify-items: end; }
+
+nav .collapse.navbar-collapse {
+  justify-content: end; }
+
+nav button {
+  color: #fff; }
+
+nav .logo {
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 10px;
+  width: 60px;
+  height: 60px; }
+
+nav .nav-item.foto {
+  margin-left: 50px; }
+
+nav span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff; }
+  nav span p {
+    margin-top: -25px;
+    margin-left: 225px; }
+
+main {
+  background-color: #fff; }
+  main section.first {
+    margin-left: 160px;
+    margin-top: 250px;
+    margin-bottom: 0px; }
+    main section.first h5 {
+      font-family: "Barlow", sans-serif;
+      font-weight: 500;
+      font-size: 20px; }
+    main section.first h2 {
+      font-family: "Lora", serif;
+      font-size: 42px;
+      font-weight: 500; }
+    main section.first .row {
+      margin-top: 50px;
+      margin-bottom: 50px; }
+    main section.first input {
+      display: inline;
+      justify-content: space-around;
+      width: 370px;
+      height: 50px;
+      border-radius: 9px;
+      outline-color: #92be3e;
+      border-style: solid;
+      border-color: #dee0e2; }
+    main section.first button {
+      background-color: #92be3e;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: "Barlow", sans-serif;
+      color: #ffffff;
+      outline: none;
+      width: 170px;
+      height: 50px;
+      border-radius: 9px;
+      border: none; }
+    main section.first button:hover {
+      color: #92be3e;
+      border: solid 2px #92be3e;
+      background-color: #fff; }
+  main section.second {
+    background-color: #e9edf1; }
+    main section.second .row {
+      margin-left: 160px;
+      margin-right: 175px; }
+      main section.second .row .col-lg-6 {
+        margin-top: 215px; }
+      main section.second .row h2 {
+        font-family: "Lora", serif;
+        font-size: 48px;
+        font-weight: 500;
+        display: inline;
+        margin-bottom: 50px; }
+      main section.second .row p {
+        font-family: "Barlow", sans-serif;
+        font-size: 20px;
+        margin-bottom: 50px; }
+  main section.third.cards {
+    background-color: #e9edf1; }
+    main section.third.cards .row {
+      margin: 0px 50px 0px 75px; }
+    main section.third.cards .cuerpo {
+      margin-top: 50px;
+      width: 350px;
+      height: 650px;
+      background-color: #fff; }
+      main section.third.cards .cuerpo h5 {
+        margin-top: 20px;
+        font-size: 28px;
+        margin-left: 20px;
+        font-family: "Lora", serif; }
+      main section.third.cards .cuerpo img.image {
+        width: 350px;
+        height: 350px; }
+    main section.third.cards ul li {
+      list-style-type: none;
+      display: inline; }
+    main section.third.cards button {
+      text-align: center;
+      width: 250px;
+      height: 50px;
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      color: black;
+      border-style: solid;
+      border-color: #dee0e2;
+      background-color: #ffffff;
+      border-radius: 9px;
+      margin-left: 50px;
+      margin-right: auto;
+      margin-bottom: 40px;
+      box-shadow: 2px 2px 2px 2px #dee0e2; }
+    main section.third.cards button:hover {
+      color: #92be3e;
+      border-color: #92be3e; }
+  main .second-cards .row .cuerpo {
+    margin-bottom: 100px; }
+  main .boton {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: #e9edf1;
+    padding-bottom: 80px; }
+    main .boton button.vermas {
+      background-color: #92be3e;
+      color: #fff;
+      border: none;
+      border-radius: 9px;
+      width: 300px;
+      height: 50px; }
+    main .boton button:hover {
+      background-color: #fff;
+      color: #92be3e;
+      border: solid #92be3e 2px; }
+  main section.fourth {
+    margin-top: 215px;
+    background-color: #fff;
+    margin-right: 20px;
+    margin-left: 20px; }
+    main section.fourth p {
+      font-family: "Barlow", sans-serif;
+      margin-bottom: 150px;
+      font-size: 20px;
+      margin-right: 100px;
+      margin-top: 50px; }
+    main section.fourth h2 {
+      font-family: "Lora", serif;
+      font-size: 48px;
+      font-weight: 500;
+      margin-left: 160px;
+      margin-top: 50px; }
+    main section.fourth img {
+      margin-left: 160px; }
+  main .activities-carousel {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    max-width: 1200px;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px; }
+    main .activities-carousel .activity-box {
+      display: inline-flex;
+      width: 100%;
+      float: inline-start;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      overflow: hidden; }
+      main .activities-carousel .activity-box:hover figcaption:after {
+        width: calc(100% - 60px); }
+      main .activities-carousel .activity-box:hover img {
+        -moz-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        -webkit-filter: blur(4px);
+        filter: blur(4px); }
+      main .activities-carousel .activity-box:hover:after {
+        opacity: 0.9; }
+      main .activities-carousel .activity-box:after {
+        content: "";
+        width: 100%;
+        height: 150px;
+        opacity: 0.8;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+        background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #131314 100%);
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #131314 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#131314',GradientType=0 ); }
+      main .activities-carousel .activity-box img {
+        width: 100%;
+        float: left;
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -ms-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+        transition: 0.25s ease-in-out; }
+      main .activities-carousel .activity-box figcaption {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 3;
+        font-family: "Lora", serif;
+        font-size: 24px;
+        color: #fff;
+        padding: 30px; }
+        main .activities-carousel .activity-box figcaption:after {
+          content: "";
+          width: 55px;
+          height: 1px;
+          background: #92be3e;
+          position: absolute;
+          left: 30px;
+          bottom: 25px;
+          -webkit-transition: 0.25s ease-in-out;
+          -moz-transition: 0.25s ease-in-out;
+          -ms-transition: 0.25s ease-in-out;
+          -o-transition: 0.25s ease-in-out;
+          transition: 0.25s ease-in-out; }
+  main .swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 4px; }
+    main .swiper-button-prev:hover .arrow-left:before {
+      background: url("../images/arrow-left-hover.png") no-repeat; }
+    main .swiper-button-prev .arrow-left:before {
+      content: "";
+      width: 22px;
+      height: 18px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      display: block;
+      background: url("../images/arrow-left.png") no-repeat;
+      -webkit-transition: 0.25s ease-in-out;
+      -moz-transition: 0.25s ease-in-out;
+      -ms-transition: 0.25s ease-in-out;
+      -o-transition: 0.25s ease-in-out;
+      transition: 0.25s ease-in-out; }
+    main .swiper-button-prev img {
+      width: 42px; }
+    main .swiper-button-prev.swiper-button-disabled {
+      opacity: 0; }
+  main .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 4px; }
+    main .swiper-button-next:hover .arrow-right:before {
+      background: url("../images/arrow-right-hover.png") no-repeat; }
+    main .swiper-button-next .arrow-right:before {
+      content: "";
+      width: 22px;
+      height: 18px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      display: block;
+      background: url("../images/arrow-right.png") no-repeat;
+      -webkit-transition: 0.25s ease-in-out;
+      -moz-transition: 0.25s ease-in-out;
+      -ms-transition: 0.25s ease-in-out;
+      -o-transition: 0.25s ease-in-out;
+      transition: 0.25s ease-in-out; }
+    main .swiper-button-next img {
+      width: 42px; }
+    main .swiper-button-next.swiper-button-disabled {
+      opacity: 0; }
+  main .attractions-box {
+    max-width: 500px;
+    max-height: 750px;
+    float: left;
+    margin-bottom: 30px;
+    padding: 0;
+    position: relative;
+    overflow: hidden; }
+    main .attractions-box:hover img {
+      -moz-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      -webkit-: blur(4px);
+      filter: blur(4px); }
+    main .attractions-box:hover:after {
+      opacity: 0.9; }
+    main .attractions-box:after {
+      content: "";
+      width: 100%;
+      height: 150px;
+      opacity: 0.8;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: 2;
+      background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #131314 100%);
+      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #131314 100%);
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#131314',GradientType=0 ); }
+    main .attractions-box img {
+      width: 100%;
+      float: left;
+      -webkit-transition: 0.25s ease-in-out;
+      -moz-transition: 0.25s ease-in-out;
+      -ms-transition: 0.25s ease-in-out;
+      -o-transition: 0.25s ease-in-out;
+      transition: 0.25s ease-in-out; }
+  main .attractions-boxes {
+    max-width: 500px;
+    max-height: 750px;
+    float: right;
+    margin-bottom: 30px;
+    padding: 0;
+    position: relative;
+    overflow: hidden; }
+    main .attractions-boxes:hover img {
+      -moz-transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+      -webkit-: blur(4px);
+      filter: blur(4px); }
+    main .attractions-boxes:hover:after {
+      opacity: 0.9; }
+    main .attractions-boxes:after {
+      content: "";
+      width: 100%;
+      height: 150px;
+      opacity: 0.8;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: 2;
+      background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #131314 100%);
+      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #131314 100%);
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#131314',GradientType=0 ); }
+    main .attractions-boxes img {
+      width: 100%;
+      float: right;
+      -webkit-transition: 0.25s ease-in-out;
+      -moz-transition: 0.25s ease-in-out;
+      -ms-transition: 0.25s ease-in-out;
+      -o-transition: 0.25s ease-in-out;
+      transition: 0.25s ease-in-out; }
+  main section.first-destino {
+    margin-left: 160px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 50px; }
+    main section.first-destino .p-0 {
+      box-sizing: content-box; }
+      main section.first-destino .p-0 h2 {
+        font-family: "Lora", serif;
+        font-size: 60px;
+        font-weight: 500; }
+      main section.first-destino .p-0 .line {
+        height: 50px;
+        width: 100px;
+        margin-bottom: 50px; }
+      main section.first-destino .p-0 p {
+        margin-right: 200px;
+        font-size: 18px; }
+  main section.foto img.final {
+    max-width: 1440px; }
+  main section.contact-form {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto; }
+    main section.contact-form .container {
+      display: grid;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 700px; }
+      main section.contact-form .container .row input {
+        background-color: #ffffff;
+        border: solid;
+        border-color: #dee0e2;
+        border-radius: 9px;
+        width: 320px;
+        height: 50px;
+        display: grid;
+        margin-left: auto;
+        margin-right: auto; }
+      main section.contact-form .container .row textarea {
+        background-color: #ffffff;
+        border: solid;
+        border-color: #dee0e2;
+        border-radius: 9px;
+        width: 680px;
+        height: 200px;
+        display: grid;
+        margin-left: auto;
+        margin-right: auto; }
+      main section.contact-form .container .row button {
+        background-color: #92be3e;
+        color: #ffffff;
+        font-family: "Barlow", sans-serif;
+        font-weight: 600;
+        border: none;
+        border-radius: 9px;
+        font-size: 18px;
+        width: 300px;
+        height: 40px;
+        margin-bottom: 100px; }
+      main section.contact-form .container .row button:hover {
+        color: #92be3e;
+        background-color: #fff;
+        border: solid 2px #92be3e; }
+  main section.tours-list {
+    margin-top: 300px; }
+    main section.tours-list .container .column {
+      background-color: #ffffff;
+      margin-bottom: 100px; }
+      main section.tours-list .container .column figure img {
+        width: 350px;
+        height: 350px; }
+    main section.tours-list .container .column1 {
+      margin-top: 160px; }
+    main section.tours-list .tour-box-list {
+      display: flex;
+      margin-top: 0px;
+      margin-bottom: -15px;
+      margin-left: -15px; }
+      main section.tours-list .tour-box-list .tour-content {
+        margin-right: auto;
+        margin-left: 60px;
+        margin-top: 20px;
+        -webkit-box-direction: normal; }
+      main section.tours-list .tour-box-list small {
+        font-weight: 500;
+        color: #7c838b; }
+      main section.tours-list .tour-box-list h3 {
+        font-family: "Lora", serif;
+        font-size: 25px; }
+      main section.tours-list .tour-box-list p {
+        font-family: "Barlow", sans-serif;
+        font-size: 18px; }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(calc(-250px * 7)); } }
+  main .slider {
+    background: white;
+    height: 350px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 1400px; }
+    main .slider::before, main .slider::after {
+      background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+      content: "";
+      height: 100px;
+      position: absolute;
+      width: 200px;
+      z-index: 2; }
+    main .slider::after {
+      right: 0;
+      top: 0;
+      transform: rotateZ(180deg); }
+    main .slider::before {
+      left: 0;
+      top: 0; }
+    main .slider .slide-track {
+      animation: scroll 30s linear infinite;
+      display: flex;
+      width: calc(250px * 14); }
+    main .slider .slide {
+      height: 350px;
+      width: 350px;
+      margin-right: 10px;
+      margin-left: 10px; }
+  main section.carousel1 {
+    margin-top: 100px;
+    margin-bottom: -100px; }
+  main section.carousel2 {
+    margin-top: 100px;
+    margin-bottom: -100px; }
+  main section.carousel3 {
+    margin-bottom: 150px;
+    margin-top: 100px; }
+  main .first.programas a {
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px; }
+  main .first.programas a:hover {
+    color: #92be3e; }
+  main .first.programas p {
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px; }
+
+footer.index {
+  background-color: black;
+  max-width: 1440px;
+  height: 600px;
+  margin-top: 600px;
+  margin-bottom: -200px; }
+  footer.index p.title {
+    font-weight: 800; }
+  footer.index .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 19px;
+    grid-row-gap: 0px; }
+  footer.index .div1 {
+    color: #ffffff;
+    grid-area: 1 / 1 / 2 / 2 / 3 / 3;
+    margin-left: 100px;
+    margin-top: 200px; }
+    footer.index .div1 input {
+      display: inline;
+      justify-content: space-around;
+      width: 400px;
+      height: 50px;
+      border-radius: 9px;
+      outline-color: #92be3e;
+      border-style: solid;
+      border-color: #dee0e2; }
+    footer.index .div1 button {
+      background-color: #92be3e;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: "Barlow", sans-serif;
+      color: #ffffff;
+      outline: none;
+      width: 170px;
+      height: 50px;
+      border-radius: 9px;
+      border: none;
+      margin-top: 15px; }
+  footer.index .div2 {
+    margin-top: 200px;
+    margin-left: 100px;
+    color: #ffffff;
+    grid-area: 1 / 1 / 2 / 2 /3 /3; }
+  footer.index .div3 {
+    margin-left: 100px;
+    margin-top: 200px;
+    color: #ffffff;
+    grid-area: 1 / 1 / 2 / 2 / 3 / 3; }
+    footer.index .div3 ul li {
+      list-style-type: none;
+      margin-top: 20px;
+      margin-left: -30px; }
+      footer.index .div3 ul li select {
+        border: none;
+        border-radius: 9px;
+        width: 150px;
+        height: 50px; }
+    footer.index .div3 .icons {
+      margin-top: 100px; }
+  footer.index button:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #92be3e; }
+
+footer.other {
+  background-color: black;
+  max-width: 1440px;
+  height: 600px; }
+  footer.other p.title {
+    font-weight: 800; }
+  footer.other .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 19px;
+    grid-row-gap: 0px; }
+  footer.other .div1 {
+    color: #ffffff;
+    grid-area: 1 / 1 / 2 / 2 / 3 / 3;
+    margin-left: 100px;
+    margin-top: 200px; }
+    footer.other .div1 input {
+      display: inline;
+      justify-content: space-around;
+      width: 400px;
+      height: 50px;
+      border-radius: 9px;
+      outline-color: #92be3e;
+      border-style: solid;
+      border-color: #dee0e2; }
+    footer.other .div1 button {
+      background-color: #92be3e;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: "Barlow", sans-serif;
+      color: #ffffff;
+      outline: none;
+      width: 170px;
+      height: 50px;
+      border-radius: 9px;
+      border: none;
+      margin-top: 15px; }
+  footer.other .div2 {
+    margin-top: 200px;
+    margin-left: 100px;
+    color: #ffffff;
+    grid-area: 1 / 1 / 2 / 2 /3 /3; }
+  footer.other .div3 {
+    margin-left: 100px;
+    margin-top: 200px;
+    color: #ffffff;
+    grid-area: 1 / 1 / 2 / 2 / 3 / 3; }
+    footer.other .div3 ul li {
+      list-style-type: none;
+      margin-top: 20px;
+      margin-left: -30px; }
+      footer.other .div3 ul li select {
+        border: none;
+        border-radius: 9px;
+        width: 150px;
+        height: 50px; }
+    footer.other .div3 .icons {
+      margin-top: 100px; }
+  footer.other button:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #92be3e; }
+
+main section.contacto-formulario h1 {
+  color: black;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 64px;
+  margin-left: 150px;
+  font-family: "Lora", serif; }
+
+main section.contacto-formulario .lines {
+  height: 100px;
+  width: 300px;
+  margin-top: -80px;
+  margin-left: 150px;
+  margin-bottom: 60px; }
+
+main section.third.cards .parent1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  text-align: center; }
+  main section.third.cards .parent1 .box1 {
+    margin-left: 20px;
+    margin-right: -20px; }
+    main section.third.cards .parent1 .box1 img {
+      margin-bottom: 15px;
+      width: 35px;
+      height: 35px; }
+    main section.third.cards .parent1 .box1 p {
+      font-size: 14px;
+      margin-top: 0px;
+      font-weight: 700; }
+    main section.third.cards .parent1 .box1 small {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #393c3f;
+      font-weight: 400; }
+  main section.third.cards .parent1 .box2 {
+    margin-right: -15px;
+    margin-left: 20px; }
+    main section.third.cards .parent1 .box2 img {
+      margin-bottom: 15px;
+      width: 35px;
+      height: 35px; }
+    main section.third.cards .parent1 .box2 p {
+      font-size: 14px;
+      margin-top: 0px;
+      font-weight: 700; }
+    main section.third.cards .parent1 .box2 small {
+      margin-top: 5px;
+      font-size: 12px;
+      color: #393c3f;
+      font-weight: 400; }
+  main section.third.cards .parent1 .box3 {
+    margin-left: -15px;
+    margin-right: -15px; }
+    main section.third.cards .parent1 .box3 img {
+      margin-bottom: 15px;
+      width: 35px;
+      height: 35px; }
+    main section.third.cards .parent1 .box3 p {
+      font-size: 14px;
+      margin-top: 0px;
+      font-weight: 700; }
+    main section.third.cards .parent1 .box3 small {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #393c3f;
+      font-weight: 400; }
+
+main section.third.cards .cuerpo.aves .parent1 {
+  margin-top: 43px; }
+
+main section.tours-list.tours .parent2 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+  main section.tours-list.tours .parent2 p {
+    font-size: 12px;
+    color: #7c838b; }
+  main section.tours-list.tours .parent2 .ic2 {
+    margin-left: -70px;
+    margin-top: 10px; }
+  main section.tours-list.tours .parent2 .ic1 {
+    margin-top: 10px; }
+  main section.tours-list.tours .parent2 .ic3 {
+    margin-top: 5px;
+    margin-left: -70px; }
+  main section.tours-list.tours .parent2 .ic4 {
+    margin-top: 10px;
+    margin-left: -70px; }
+  main section.tours-list.tours .parent2 .ic5 {
+    margin-left: -70px;
+    margin-top: 20px; }
+  main section.tours-list.tours .parent2 .ic6 {
+    margin-top: 9px;
+    margin-left: -70px; }
+
+main section.tours-list.tours .margen1 {
+  margin-top: 50px; }
+
+main section.tours-list.tours .margen2 {
+  margin-top: 70px; }
+
+main section.tours-list.tours .margen3 {
+  margin-top: 30px; }
+
+main section.tours-list.tours .margen4 {
+  margin-top: 100px; }
+
+main .islas2 {
+  margin-top: -30px;
+  display: grid;
+  grid-template-areas: "foto derecha"; }
+  main .islas2 .foto {
+    grid-area: foto;
+    margin-right: -250px;
+    margin-left: 150px; }
+    main .islas2 .foto img {
+      width: 500px;
+      height: 600px; }
+  main .islas2 .derecha {
+    grid-area: derecha;
+    margin-right: 50px;
+    width: 600px;
+    height: 600px; }
+    main .islas2 .derecha h2 {
+      font-family: "Lora", serif;
+      margin-left: 150px;
+      margin-top: 50px;
+      font-size: 48px;
+      text-align: start; }
+    main .islas2 .derecha img.w-25 {
+      margin-left: 150px; }
+    main .islas2 .derecha p {
+      margin-left: 150px;
+      margin-right: 150px;
+      font-family: "Barlow", sans-serif;
+      font-size: 18px; }
+    main .islas2 .derecha button {
+      margin-left: 150px;
+      background-color: #ffffff;
+      font-weight: 600;
+      border: none;
+      margin-top: 100px; }
+    main .islas2 .derecha button:hover {
+      color: #92be3e; }
+    main .islas2 .derecha a {
+      text-decoration: none;
+      font-family: "Barlow", sans-serif;
+      color: #000;
+      font-weight: 700;
+      font-size: 20px; }
+    main .islas2 .derecha a:hover {
+      color: #92be3e; }
+    main .islas2 .derecha img.w-25.second {
+      margin-left: 150px;
+      margin-top: -700px; }
+    main .islas2 .derecha .btn-planner {
+      margin-left: -160px;
+      margin-top: 380px; }
+
+main .puertoAysen2 {
+  margin-top: -30px;
+  display: grid;
+  grid-template-areas: "foto derecha"; }
+  main .puertoAysen2 .foto {
+    grid-area: foto;
+    margin-right: -250px;
+    margin-left: 150px; }
+    main .puertoAysen2 .foto img {
+      width: 500px;
+      height: 600px; }
+  main .puertoAysen2 .derecha {
+    grid-area: derecha;
+    margin-right: 50px;
+    width: 600px;
+    height: 600px; }
+    main .puertoAysen2 .derecha h2 {
+      font-family: "Lora", serif;
+      margin-left: 150px;
+      margin-top: 50px;
+      font-size: 48px;
+      text-align: start; }
+    main .puertoAysen2 .derecha img.w-25 {
+      margin-left: 150px; }
+    main .puertoAysen2 .derecha p {
+      margin-left: 150px;
+      margin-right: 150px;
+      font-family: "Barlow", sans-serif;
+      font-size: 18px; }
+    main .puertoAysen2 .derecha button {
+      margin-left: 150px;
+      background-color: #ffffff;
+      font-weight: 600;
+      border: none;
+      margin-top: 40px; }
+    main .puertoAysen2 .derecha button:hover {
+      color: #92be3e; }
+    main .puertoAysen2 .derecha a {
+      text-decoration: none;
+      font-family: "Barlow", sans-serif;
+      color: #000;
+      font-weight: 700;
+      font-size: 20px; }
+    main .puertoAysen2 .derecha a:hover {
+      color: #92be3e; }
+    main .puertoAysen2 .derecha img.w-25.second {
+      margin-left: 150px;
+      margin-top: -700px; }
+    main .puertoAysen2 .derecha .btn-planner {
+      margin-left: -160px;
+      margin-top: 380px; }
+
+main .manihuales2 {
+  display: grid;
+  grid-template-areas: "izquierda foto"; }
+  main .manihuales2 .foto {
+    grid-area: foto;
+    margin-right: 250px;
+    margin-left: -250px;
+    margin-top: 100px; }
+    main .manihuales2 .foto img {
+      width: 500px;
+      height: 600px; }
+  main .manihuales2 .izquierda {
+    grid-area: izquierda;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 600px;
+    height: 600px;
+    margin-top: 100px; }
+    main .manihuales2 .izquierda h2 {
+      font-family: "Lora", serif;
+      margin-left: 50px;
+      margin-top: 50px;
+      font-size: 48px;
+      text-align: start; }
+    main .manihuales2 .izquierda img.w-25 {
+      margin-left: 50px; }
+    main .manihuales2 .izquierda p {
+      margin-left: 50px;
+      margin-right: 150px;
+      font-family: "Barlow", sans-serif;
+      font-size: 18px; }
+    main .manihuales2 .izquierda button {
+      margin-left: 50px;
+      background-color: #ffffff;
+      font-weight: 600;
+      border: none;
+      margin-top: 175px; }
+    main .manihuales2 .izquierda button:hover {
+      color: #92be3e; }
+    main .manihuales2 .izquierda a {
+      text-decoration: none;
+      font-family: "Barlow", sans-serif;
+      color: #000;
+      font-weight: 700;
+      font-size: 20px; }
+    main .manihuales2 .izquierda a:hover {
+      color: #92be3e; }
+    main .manihuales2 .izquierda .btn-planner {
+      margin-top: 80px; }
+
+main .puertoChaca2 {
+  margin-top: -30px;
+  display: grid;
+  grid-template-areas: "izquierda foto"; }
+  main .puertoChaca2 .foto {
+    grid-area: foto;
+    margin-right: 250px;
+    margin-left: -250px; }
+    main .puertoChaca2 .foto img {
+      width: 500px;
+      height: 600px; }
+  main .puertoChaca2 .izquierda {
+    grid-area: izquierda;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 600px;
+    height: 600px; }
+    main .puertoChaca2 .izquierda h2 {
+      font-family: "Lora", serif;
+      margin-left: 50px;
+      margin-top: 50px;
+      font-size: 48px;
+      text-align: start; }
+    main .puertoChaca2 .izquierda img.w-25 {
+      margin-left: 50px; }
+    main .puertoChaca2 .izquierda p {
+      margin-left: 50px;
+      margin-right: 150px;
+      font-family: "Barlow", sans-serif;
+      font-size: 18px; }
+    main .puertoChaca2 .izquierda button {
+      margin-left: 50px;
+      background-color: #ffffff;
+      font-weight: 600;
+      border: none;
+      margin-top: 120px; }
+    main .puertoChaca2 .izquierda button:hover {
+      color: #92be3e; }
+    main .puertoChaca2 .izquierda a {
+      text-decoration: none;
+      font-family: "Barlow", sans-serif;
+      color: #000;
+      font-weight: 700;
+      font-size: 20px; }
+    main .puertoChaca2 .izquierda a:hover {
+      color: #92be3e; }
+
+main .resto-cafe {
+  margin-top: -30px;
+  display: grid;
+  grid-template-areas: "izquierda foto"; }
+  main .resto-cafe .foto {
+    grid-area: foto;
+    margin-right: 250px;
+    margin-left: -250px; }
+    main .resto-cafe .foto img {
+      width: 500px;
+      height: 600px; }
+  main .resto-cafe .izquierda {
+    grid-area: izquierda;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 600px;
+    height: 600px; }
+    main .resto-cafe .izquierda h2 {
+      font-family: "Lora", serif;
+      margin-left: 50px;
+      margin-top: 50px;
+      font-size: 48px;
+      text-align: start; }
+    main .resto-cafe .izquierda img.w-25 {
+      margin-top: -585px;
+      margin-left: 50px; }
+    main .resto-cafe .izquierda p {
+      margin-left: 50px;
+      margin-right: 150px;
+      font-family: "Barlow", sans-serif;
+      font-size: 18px; }
+    main .resto-cafe .izquierda button {
+      margin-left: -160px;
+      background-color: #ffffff;
+      font-weight: 600;
+      border: none;
+      margin-top: 320px; }
+    main .resto-cafe .izquierda button:hover {
+      color: #92be3e; }
+    main .resto-cafe .izquierda a {
+      text-decoration: none;
+      font-family: "Barlow", sans-serif;
+      color: #000;
+      font-weight: 700;
+      font-size: 20px; }
+    main .resto-cafe .izquierda a:hover {
+      color: #92be3e; }
+
+main section.tours-list.tours figure .carousel {
+  width: 350px;
+  height: 350px; }
+
+@media (min-width: 375px) and (max-width: 768px) {
+  nav {
+    margin-left: -50px; }
+    nav .logo {
+      margin-left: 50px;
+      margin-right: 10px; }
+    nav span {
+      font-size: 15px;
+      font-weight: 700;
+      margin-right: -700px; }
+      nav span p {
+        margin-top: -25px;
+        margin-left: 120px;
+        margin-right: 0px; }
+    nav .collapse.navbar-collapse {
+      z-index: 3;
+      background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+      backdrop-filter: blur(5px); }
+      nav .collapse.navbar-collapse a {
+        font-weight: 600; }
+  header {
+    min-width: 375px; }
+    header .fixed {
+      position: absolute;
+      top: 100px;
+      margin: 20px;
+      margin-top: 35px; }
+    header h1 {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-size: 32px;
+      margin-left: 10px; }
+    header a.links {
+      margin-left: 10px;
+      margin-bottom: -100px; }
+    header .line {
+      height: 50px;
+      width: 150px;
+      margin-top: -50px;
+      margin-left: 10px;
+      margin-bottom: 60px; }
+    header a.link {
+      font-size: 20px;
+      margin-left: -150px;
+      margin-top: 150px; }
+    header .subtitulo {
+      margin-left: 10px;
+      margin-top: -60px;
+      font-size: 20px; }
+  header.index h1 {
+    margin-right: 50px; }
+  header.index .parent ul {
+    display: none; }
+  main {
+    margin-right: 0px; }
+    main h1 {
+      font-size: 32px; }
+    main section.first {
+      display: none; }
+    main section.second .row {
+      margin-right: 0px;
+      margin-left: 0px; }
+    main section.second h2 {
+      display: grid;
+      margin-left: auto;
+      margin-right: 0px; }
+    main section.second p {
+      margin-left: 0px;
+      margin-top: -150px; }
+    main section.second img.w-25 {
+      margin-top: 70px;
+      margin-left: -225px; }
+    main section.third.cards {
+      display: grid;
+      margin-left: auto;
+      margin-right: auto; }
+      main section.third.cards .row {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto; }
+    main .second-cards {
+      display: grid;
+      margin-left: auto;
+      margin-right: auto; }
+      main .second-cards div.col-lg-4 {
+        margin-bottom: -80px; }
+    main .boton {
+      display: grid;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto; }
+      main .boton button {
+        max-width: 100px; }
+      main .boton button:hover {
+        background-color: #fff;
+        color: #92be3e;
+        border: solid #92be3e 2px; }
+    main .fourth .row {
+      margin-right: 0px;
+      margin-left: 0px;
+      margin-top: -150px;
+      margin-bottom: -650px; }
+      main .fourth .row h2 {
+        margin-left: 0px; }
+      main .fourth .row img.w-25 {
+        margin-left: 0px; }
+      main .fourth .row p {
+        margin-right: 0px; }
+    main .row.activities-carousel {
+      display: none; }
+    main .manihuales2 {
+      display: none; }
+    main .puertoAysen2 {
+      display: none; }
+    main .puertoChaca2 {
+      display: none; }
+    main .islas2 {
+      display: none; }
+    main section.first-destino {
+      display: grid;
+      margin-left: 30px;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      margin-right: -150px; }
+      main section.first-destino .p-0 {
+        box-sizing: content-box; }
+        main section.first-destino .p-0 h2 {
+          font-size: 40px; }
+    main section.first.programas .container .row .col-12 {
+      margin-top: -50px; }
+    main section.carousel1 {
+      margin-top: 300px;
+      display: none; }
+    main section.carousel2 {
+      margin-top: 500px;
+      display: none; }
+    main section.carousel3 {
+      margin-top: 500px;
+      display: none; }
+    main section.tours-list {
+      margin-top: 300px; }
+      main section.tours-list .container .column {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        max-width: 350px; }
+        main section.tours-list .container .column figure {
+          margin-top: 20px; }
+          main section.tours-list .container .column figure img {
+            max-width: 150px;
+            max-height: 150px; }
+      main section.tours-list .tour-box-list {
+        display: flex; }
+        main section.tours-list .tour-box-list .tour-content {
+          margin-right: 10px;
+          margin-top: 180px;
+          margin-left: -240px; }
+          main section.tours-list .tour-box-list .tour-content .parent2 {
+            display: none; }
+    main section.contacto-formulario h1 {
+      font-size: 32px;
+      margin-left: 50px;
+      margin-top: 250px; }
+    main section.contacto-formulario .lines {
+      height: 50px;
+      width: 150px;
+      margin-top: -50px;
+      margin-left: 50px; }
+    main .contact-form textarea {
+      max-width: 320px; }
+    main section.only-mobile {
+      margin-bottom: 50px; }
+      main section.only-mobile .row {
+        margin-right: 0px; }
+        main section.only-mobile .row .card {
+          display: grid;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 50px;
+          width: 350px;
+          min-height: 250px;
+          margin-bottom: 50px; }
+          main section.only-mobile .row .card .card-title {
+            margin-left: 20px;
+            margin-top: 50px; }
+          main section.only-mobile .row .card .card-body {
+            margin-left: 20px; }
+          main section.only-mobile .row .card button {
+            display: grid;
+            justify-content: start;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            max-width: 200px;
+            background-color: transparent;
+            border: none; }
+            main section.only-mobile .row .card button a {
+              text-decoration: none;
+              color: black;
+              font-weight: 600; }
+    main section.only-mobile .container {
+      display: grid;
+      margin-left: auto;
+      margin-right: auto; }
+      main section.only-mobile .container .row {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto; }
+    main section.only-mobile .rutaAgua {
+      margin-top: 50px; }
+    main section.only-mobile .rutaPioneros {
+      margin-top: 50px; }
+    main section.only-mobile .gastronomia {
+      margin-top: 50px;
+      margin-bottom: 50px; }
+    main section.only-mobile img.fondo {
+      max-width: 500px;
+      max-height: 350px; }
+    main section.only-mobile .texto {
+      padding-top: 10px;
+      padding-right: 15px;
+      padding-left: 5px;
+      color: #fff;
+      max-width: 350px;
+      min-height: 350px;
+      background-color: #fff;
+      margin-top: -350px;
+      z-index: 3;
+      background: radial-gradient(100% 100% at 0% 0%, rgba(17, 17, 17, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+      backdrop-filter: blur(3px); }
+      main section.only-mobile .texto h2 {
+        margin-left: 10px; }
+      main section.only-mobile .texto img {
+        margin-left: 10px; }
+      main section.only-mobile .texto p {
+        margin-left: 10px;
+        margin-bottom: 50px; }
+      main section.only-mobile .texto a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600; }
+  section.tours-list.tours .t-boxes {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto; }
+    section.tours-list.tours .t-boxes .tour-content {
+      margin-top: 50px;
+      display: grid;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 350px; }
+  section.tours-list.tours div.tour-content {
+    margin-top: 200px; }
+  section.tours-list.tours .lista ul {
+    list-style-type: none;
+    margin-left: -30px;
+    margin-bottom: 50px;
+    margin-top: 50px; }
+    section.tours-list.tours .lista ul li {
+      margin-top: 20px; }
+      section.tours-list.tours .lista ul li .phone {
+        margin-top: 50px; }
+    section.tours-list.tours .lista ul p {
+      margin-top: -50px;
+      margin-left: 50px; }
+    section.tours-list.tours .lista ul .text {
+      margin-top: -35px; }
+  section.tours-list.tours figure .carousel {
+    max-width: 150px;
+    max-height: 150px;
+    margin-left: 100px; }
+  main.planner section.only-mobile {
+    margin-bottom: 50px; }
+    main.planner section.only-mobile .row .card {
+      display: grid;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 50px;
+      width: 350px;
+      min-height: 250px;
+      margin-bottom: 50px; }
+      main.planner section.only-mobile .row .card .card-title {
+        margin-left: 20px;
+        margin-top: 50px; }
+      main.planner section.only-mobile .row .card .card-body {
+        margin-left: 20px; }
+      main.planner section.only-mobile .row .card button {
+        display: grid;
+        justify-content: start;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        max-width: 200px;
+        background-color: transparent;
+        border: none; }
+        main.planner section.only-mobile .row .card button a {
+          text-decoration: none;
+          color: black;
+          font-weight: 600; }
+  main.planner .manihuales2 .izquierda {
+    display: none; }
+  main.planner .manihuales2 .puertoAysen2 {
+    display: none; }
+  main.planner .resto-cafe {
+    display: none; }
+  main.planner .islas2 {
+    display: none; }
+  footer.index {
+    background-color: black;
+    width: auto;
+    height: 800px; }
+    footer.index .parent {
+      display: grid;
+      grid-template-columns: repeat(1, 3fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 19px;
+      grid-row-gap: 0px; }
+    footer.index .div1 {
+      margin-left: 15px;
+      margin-top: 50px; }
+      footer.index .div1 input {
+        display: inline;
+        justify-content: space-around;
+        width: 250px;
+        margin-top: auto; }
+      footer.index .div1 button {
+        width: 170px;
+        height: 50px;
+        margin-top: 150px;
+        margin-left: -250px; }
+    footer.index .div2 {
+      margin-top: 20px;
+      margin-left: 15px;
+      color: #ffffff; }
+    footer.index .div3 {
+      margin-left: 15px;
+      margin-top: 20px;
+      color: #ffffff; }
+      footer.index .div3 ul li {
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: -30px; }
+        footer.index .div3 ul li select {
+          border: none;
+          border-radius: 9px;
+          width: 150px;
+          height: 50px; }
+      footer.index .div3 .icons {
+        margin-top: 15px; }
+  footer.other {
+    background-color: black;
+    width: auto;
+    height: 800px; }
+    footer.other .parent {
+      display: grid;
+      grid-template-columns: repeat(1, 3fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 19px;
+      grid-row-gap: 0px; }
+    footer.other .div1 {
+      margin-left: 15px;
+      margin-top: 50px; }
+      footer.other .div1 input {
+        display: inline;
+        justify-content: space-around;
+        width: 250px;
+        margin-top: auto; }
+      footer.other .div1 button {
+        width: 170px;
+        height: 50px;
+        margin-top: 150px;
+        margin-left: -250px; }
+    footer.other .div2 {
+      margin-top: 20px;
+      margin-left: 15px;
+      color: #ffffff; }
+    footer.other .div3 {
+      margin-left: 15px;
+      margin-top: 20px;
+      color: #ffffff; }
+      footer.other .div3 ul li {
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: -30px; }
+        footer.other .div3 ul li select {
+          border: none;
+          border-radius: 9px;
+          width: 150px;
+          height: 50px; }
+      footer.other .div3 .icons {
+        margin-top: 15px; } }
+
+@media screen and (min-width: 769px) {
+  main section.tours-list.tours .container .tour-content .lista {
+    display: none; }
+  main section.only-mobile {
+    display: none; } }
+
+body {
+  padding-right: -100px; }

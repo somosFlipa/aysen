@@ -1,0 +1,618 @@
+@media (min-width: 375px) and (max-width: 768px) {
+    // nav
+    nav{
+        margin-left: -50px;
+        .logo {
+            margin-left: 50px;
+            margin-right: 10px;
+          }
+          span {
+            font-size: 15px;
+            font-weight: 700;
+            margin-right: -700px;
+            p {
+              margin-top: -25px;
+              margin-left: 120px;
+              margin-right: 0px;
+            }
+          }
+        .collapse.navbar-collapse{
+          z-index: 3;
+          background: radial-gradient(
+            100% 100% at 0% 0%,
+            rgba(255, 255, 255, 0.4) 0%,
+            rgba(255, 255, 255, 0) 100%
+          );
+          backdrop-filter: blur(5px);
+          a{
+            font-weight: 600;
+
+          }
+        
+        }
+          
+    }
+    // header
+    header{
+        min-width: 375px;
+        .fixed {
+          position: absolute;
+          top: 100px;
+          margin: 20px;
+          margin-top: 35px;
+        }
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 32px;
+        margin-left: 10px;
+
+      }        
+      a.links{
+          margin-left: 10px;
+          margin-bottom: -100px;
+      }
+      .line {
+        height: 50px;
+        width: 150px;
+        margin-top: -50px;
+        margin-left: 10px;
+        margin-bottom: 60px;
+      }
+      a.link {
+        font-size: 20px;
+        margin-left: -150px;
+        margin-top: 150px;
+      }
+      .subtitulo{
+        margin-left: 10px;
+        margin-top: -60px;
+        font-size: 20px;
+      }
+    }
+    header.index{
+        h1{
+        margin-right: 50px;            
+        }
+        .parent{
+         ul{
+            display: none;
+         }   
+       }
+       }
+    // main
+    main{
+      margin-right: 0px;
+        h1{
+            font-size: 32px;
+        }
+        // main index
+        section.first{
+            display: none;
+
+        }
+        section.second{
+            .row{
+            margin-right: 0px;
+            margin-left: 0px;    
+            }
+            h2{
+                display: grid;
+                margin-left: auto;
+                margin-right: 0px;
+            }
+            p{
+                margin-left: 0px;
+                margin-top: -150px;
+            }
+            img.w-25{
+              margin-top: 70px;
+              margin-left: -225px;
+            }
+
+        }
+        section.third.cards{
+          display: grid;
+          margin-left: auto;
+          margin-right: auto;     
+            .row{
+            display: grid;
+            margin-left: auto;
+            margin-right: auto;                
+            }
+
+        }
+        .second-cards{
+            display: grid;
+            margin-left: auto;
+            margin-right: auto;
+
+              div.col-lg-4{
+                  margin-bottom: -80px;
+              }
+        }
+        .boton {
+          display: grid;
+          justify-content: center;
+          margin-left: auto;
+          margin-right: auto;
+          button{
+          max-width: 100px;  
+          }
+          button:hover {
+            background-color: #fff;
+            color: $verde;
+            border: solid $verde 2px;
+          }
+          
+        }
+    .fourth{
+        .row{
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-top: -150px;
+            margin-bottom: -650px;
+            h2{
+                margin-left: 0px;
+            }    
+            img.w-25{
+                margin-left: 0px;
+            }
+            p{
+                margin-right: 0px;
+
+            }
+            }
+
+    }
+    .row.activities-carousel{
+        display: none;
+    }
+    // main destinos
+    .manihuales2{
+      display: none;
+    }
+    .puertoAysen2{
+      display: none;
+
+    }
+    .puertoChaca2{
+      display: none;
+     }
+    .islas2{
+      display: none;
+    }
+    // destinos generales
+    section.first-destino {
+      display: grid;
+      margin-left: 30px;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      margin-right: -150px;
+      .p-0 {
+        box-sizing: content-box;
+        h2 {
+          font-size: 40px;
+
+        }
+      }
+    }
+    // programas
+    section.first.programas{
+      .container{
+        .row{
+          .col-12{
+        margin-top: -50px;            
+          }
+        }
+      }
+
+    }
+    section.carousel1 {
+      margin-top: 300px;
+      display: none;
+    }
+    section.carousel2 {
+      margin-top: 500px;
+      display: none;
+    }
+    section.carousel3 {
+      margin-top: 500px;
+      display: none;
+    }
+    // tours-lists
+    section.tours-list {
+      margin-top: 300px;
+      .container {
+
+        .column {
+          display: grid;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 100px;
+          max-width: 350px;
+          figure {
+            margin-top: 20px;
+            img {
+              max-width: 150px;
+              max-height: 150px;
+            }
+          }
+        }
+      }
+      .tour-box-list {
+        display: flex;
+        .tour-content {
+          margin-right: 10px;
+          margin-top: 180px;
+          margin-left: -240px;
+          .parent2{
+            display: none;
+          }
+        }
+      }
+    }
+    // formulario
+    section.contacto-formulario{
+ 
+      h1{
+        font-size: 32px;
+        margin-left: 50px;
+        margin-top: 250px;
+      }
+      .lines {
+        height: 50px;
+        width: 150px;
+        margin-top: -50px;
+        margin-left: 50px;
+
+      }
+    }
+    .contact-form{
+
+      textarea{
+        max-width: 320px;
+      }
+    }
+    // destinos
+    section.only-mobile{
+      margin-bottom: 50px;
+      .row{
+        margin-right: 0px;
+      .card{
+        display: grid;
+        margin-right: auto;
+        margin-left: auto;     
+        margin-top: 50px;
+        width: 350px;
+        min-height: 250px;
+        margin-bottom: 50px;
+        .card-title{
+          margin-left: 20px;
+          margin-top: 50px;
+        }
+        .card-body{
+          margin-left: 20px;
+        }
+        button{
+          display: grid;
+          justify-content: start;
+          margin-left: 20px;
+          margin-bottom: 20px;
+          max-width: 200px;
+          background-color: transparent;
+          border: none;
+          a{
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+    // programas
+    section.only-mobile{
+      .container{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;    
+        .row{
+      display: grid;
+      margin-left: auto;
+      margin-right: auto;          
+        }
+      }
+      .rutaAgua{
+        margin-top: 50px;
+
+
+      }
+      .rutaPioneros{
+        margin-top: 50px;
+
+      }
+      .gastronomia{
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+      }
+      img.fondo{
+        max-width: 500px;
+        max-height: 350px;
+      
+      }
+      .texto{
+        padding-top: 10px;
+        padding-right: 15px;
+        padding-left: 5px;
+        color: #fff;
+        max-width: 350px;
+        min-height: 350px;
+        background-color: #fff ;
+        margin-top: -350px;
+        z-index: 3;
+        background: radial-gradient(
+          100% 100% at 0% 0%,
+          rgba(17, 17, 17, 0.4) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        backdrop-filter: blur(3px);
+        h2{
+          margin-left: 10px;
+
+        }
+        img{
+          margin-left: 10px;
+        }
+        p{
+          margin-left: 10px;
+          margin-bottom: 50px;
+        }
+        a{
+          color: #fff;
+          text-decoration: none;
+          font-weight: 600;
+
+        }
+      }
+    }
+    }
+    // carrusel
+    section.tours-list.tours {
+      .t-boxes{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        .tour-content{
+          margin-top: 50px;
+          display: grid;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 350px;
+
+        }
+      }
+      div.tour-content{
+        margin-top: 200px;
+      }
+      .lista{
+        ul{
+          list-style-type: none;
+          margin-left: -30px;
+          margin-bottom: 50px;
+          margin-top: 50px;
+          li{
+            margin-top: 20px;
+            .phone{
+              margin-top: 50px;
+            }
+          }
+          p{
+            margin-top: -50px;
+            margin-left: 50px;
+
+          }
+          .text{
+            margin-top: -35px;
+          }
+        }
+      }
+      figure {
+        .carousel {
+          max-width: 150px;
+          max-height: 150px;
+          margin-left: 100px;
+        }
+      }
+    }
+    // main planner
+    main.planner{
+      section.only-mobile{
+        margin-bottom: 50px;
+        .row{
+        .card{
+          display: grid;
+          margin-right: auto;
+          margin-left: auto;     
+          margin-top: 50px;
+          width: 350px;
+          min-height: 250px;
+          margin-bottom: 50px;
+          .card-title{
+            margin-left: 20px;
+            margin-top: 50px;
+          }
+          .card-body{
+            margin-left: 20px;
+          }
+          button{
+            display: grid;
+            justify-content: start;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            max-width: 200px;
+            background-color: transparent;
+            border: none;
+            a{
+              text-decoration: none;
+              color: black;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+      .manihuales2{
+        .izquierda{
+        display: none;
+
+      }
+      .puertoAysen2{
+
+        display: none;
+          }
+
+      }
+      .resto-cafe{
+
+        display: none;
+
+      }
+      .islas2{
+        display: none;
+
+      }
+    }
+    footer.index {
+        background-color: black;
+        width: auto;
+        height: 800px;
+
+        .parent {
+          display: grid;
+          grid-template-columns: repeat(1, 3fr);
+          grid-template-rows: 1fr;
+          grid-column-gap: 19px;
+          grid-row-gap: 0px;
+        }
+      
+        .div1 {
+          margin-left: 15px;
+          margin-top: 50px;
+          input {
+            display: inline;
+            justify-content: space-around;
+            width: 250px;
+            margin-top: auto;
+          }
+          button {
+            width: 170px;
+            height: 50px;
+            margin-top: 150px;
+            margin-left: -250px;
+          }
+        }
+        .div2 {
+          margin-top: 20px;
+          margin-left: 15px;
+          color: #ffffff;
+
+        }
+        .div3 {
+          margin-left: 15px;
+          margin-top: 20px;
+          color: #ffffff;
+
+          ul li {
+            list-style-type: none;
+            margin-top: 20px;
+            margin-left: -30px;
+            select {
+              border: none;
+              border-radius: 9px;
+              width: 150px;
+              height: 50px;
+            }
+          }
+          .icons {
+            margin-top: 15px;
+          }
+        }
+
+      }
+      footer.other {
+        background-color: black;
+        width: auto;
+        height: 800px;
+
+        .parent {
+          display: grid;
+          grid-template-columns: repeat(1, 3fr);
+          grid-template-rows: 1fr;
+          grid-column-gap: 19px;
+          grid-row-gap: 0px;
+        }
+      
+        .div1 {
+          margin-left: 15px;
+          margin-top: 50px;
+          input {
+            display: inline;
+            justify-content: space-around;
+            width: 250px;
+            margin-top: auto;
+          }
+          button {
+            width: 170px;
+            height: 50px;
+            margin-top: 150px;
+            margin-left: -250px;
+          }
+        }
+        .div2 {
+          margin-top: 20px;
+          margin-left: 15px;
+          color: #ffffff;
+
+        }
+        .div3 {
+          margin-left: 15px;
+          margin-top: 20px;
+          color: #ffffff;
+
+          ul li {
+            list-style-type: none;
+            margin-top: 20px;
+            margin-left: -30px;
+            select {
+              border: none;
+              border-radius: 9px;
+              width: 150px;
+              height: 50px;
+            }
+          }
+          .icons {
+            margin-top: 15px;
+          }
+        }
+
+      }
+}
+@media screen and (min-width: 769px) {
+  main{
+    section.tours-list.tours{
+      .container{
+        .tour-content{
+          .lista{
+            display: none;
+          }
+        }
+      }
+    }
+    section.only-mobile{
+      display: none;
+    }
+
+  }
+}

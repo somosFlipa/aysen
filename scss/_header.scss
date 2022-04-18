@@ -1,0 +1,127 @@
+$verde: #92be3e;
+$barlow: "Barlow", sans-serif;
+$lora: "Lora", serif;
+
+header {
+  max-width: 1440px;
+  height: 600px;
+  background-size: cover;
+
+  h1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-size: 64px;
+    margin-left: 150px;
+
+    font-family: "Lora", serif;
+  }
+  .line {
+    height: 100px;
+    width: 300px;
+    margin-top: -70px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+  }
+  a.link {
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: -300px;
+    margin-top: 150px;
+  }
+  a.links {
+    text-decoration: none;
+    font-family: "Barlow", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 150px;
+  }
+  .subtitulo {
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: -80px;
+  }
+}
+header.index {
+  h1 {
+    margin-right: 450px;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: #ffffff;
+    ul {
+      margin-top: 150px;
+      li {
+        list-style-type: none;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        .small {
+          font-size: 12px;
+        }
+        .strong {
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+header.islas {
+  max-width: 1440px;
+  height: 600px;
+  background-size: cover;
+  background-image: url(../media/wpp4_opt.jpg);
+}
+header.puerto-ch {
+  max-width: 1440px;
+  height: 600px;
+  background-size: cover;
+  background-image: url(../media/wpp_opt.jpg);
+}
+header.planner {
+  max-width: 1440px;
+  height: 600px;
+  background-size: cover;
+  background-image: url(../media/wpp5_opt.jpg);
+}
+header.paquetes {
+  background-image: none;
+  background-color: #ffffff;
+  margin-bottom: -450px;
+  h1 {
+    color: black;
+  }
+}
+header.contacto-formulario {
+  max-height: 30px;
+  background-color: #ffffff;
+}
+header.destino {
+  background-image: url(../media/wpp4.jpg);
+}
+header.programas {
+  background-image: url(../media/wpp6.jpg);
+}
+header.manihuales {
+  background-image: url(../media/destinos/manihuales-banner.jpg);
+}
+header.puertoay {
+  background-image: url(../media/destinos/puerto-aysen-banner.jpg);
+}
+header.islas {
+  background-image: url(../media/destinos/islas-huichas-banner.jpg);
+}
+header.puerto-ch {
+  background-image: url(../media/destinos/puerto-chacabuco-banner.jpg);
+}
