@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     // nav
     nav{
         margin-left: -50px;
@@ -34,7 +34,7 @@
     }
     // header
     header{
-        min-width: 375px;
+        min-width: 300px;
         .fixed {
           position: absolute;
           top: 100px;
@@ -118,7 +118,17 @@
             .row{
             display: grid;
             margin-left: auto;
-            margin-right: auto;                
+            margin-right: auto;
+              // .col-lg-4{
+              //   .cuerpo{
+              //     width: auto;
+              //     height: auto;
+              //     img.image{
+              //       width: auto;
+              //       height: auto;
+              //     }
+              //   }
+              // }
             }
 
         }

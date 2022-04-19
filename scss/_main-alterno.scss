@@ -148,11 +148,13 @@ main {
   .islas2 {
     margin-top: -30px;
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-areas: "foto derecha";
 
     .foto {
       grid-area: foto;
-      margin-right: -250px;
+
       margin-left: 150px;
       img {
         width: 500px;
@@ -162,27 +164,27 @@ main {
 
     .derecha {
       grid-area: derecha;
-      margin-right: 50px;
-      width: 600px;
+      margin-right: 250px;
+      width: 500px;
       height: 600px;
       h2 {
         font-family: $lora;
-        margin-left: 150px;
+        margin-left: 50px;
         margin-top: 50px;
         font-size: 48px;
         text-align: start;
       }
       img.w-25 {
-        margin-left: 150px;
+        margin-left: 50px;
       }
       p {
-        margin-left: 150px;
+        margin-left: 50px;
         margin-right: 150px;
         font-family: $barlow;
         font-size: 18px;
       }
       button {
-        margin-left: 150px;
+        margin-left: 50px;
         background-color: #ffffff;
         font-weight: 600;
         border: none;
@@ -202,7 +204,7 @@ main {
         color: #92be3e;
       }
       img.w-25.second {
-        margin-left: 150px;
+        margin-left: 50px;
         margin-top: -700px;
       }
       .btn-planner {
@@ -211,15 +213,17 @@ main {
       }
     }
   }
-  //   puerto aysen{
+  //   puerto aysen
   .puertoAysen2 {
     margin-top: -30px;
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-areas: "foto derecha";
 
     .foto {
       grid-area: foto;
-      margin-right: -250px;
+
       margin-left: 150px;
       img {
         width: 500px;
@@ -229,27 +233,27 @@ main {
 
     .derecha {
       grid-area: derecha;
-      margin-right: 50px;
-      width: 600px;
+      margin-right: 250px;
+      width: 500px;
       height: 600px;
       h2 {
         font-family: $lora;
-        margin-left: 150px;
+        margin-left: 50px;
         margin-top: 50px;
         font-size: 48px;
         text-align: start;
       }
       img.w-25 {
-        margin-left: 150px;
+        margin-left: 50px;
       }
       p {
-        margin-left: 150px;
+        margin-left: 50px;
         margin-right: 150px;
         font-family: $barlow;
         font-size: 18px;
       }
       button {
-        margin-left: 150px;
+        margin-left: 50px;
         background-color: #ffffff;
         font-weight: 600;
         border: none;
@@ -269,7 +273,7 @@ main {
         color: #92be3e;
       }
       img.w-25.second {
-        margin-left: 150px;
+        margin-left: 50px;
         margin-top: -700px;
       }
       .btn-planner {
@@ -281,12 +285,15 @@ main {
   //   manihuales
   .manihuales2 {
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
+
     grid-template-areas: "izquierda foto";
 
     .foto {
       grid-area: foto;
       margin-right: 250px;
-      margin-left: -250px;
+      margin-left: 0px;
       margin-top: 100px;
       img {
         width: 500px;
@@ -297,8 +304,7 @@ main {
     .izquierda {
       grid-area: izquierda;
       margin-left: 150px;
-      margin-right: 150px;
-      width: 600px;
+      width: 500px;
       height: 600px;
       margin-top: 100px;
       h2 {
@@ -346,12 +352,14 @@ main {
   .puertoChaca2 {
     margin-top: -30px;
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-areas: "izquierda foto";
 
     .foto {
       grid-area: foto;
       margin-right: 250px;
-      margin-left: -250px;
+      margin-left: 0px;
       img {
         width: 500px;
         height: 600px;
@@ -361,8 +369,7 @@ main {
     .izquierda {
       grid-area: izquierda;
       margin-left: 150px;
-      margin-right: 150px;
-      width: 600px;
+      width: 500px;
       height: 600px;
       h2 {
         font-family: $lora;
@@ -410,7 +417,6 @@ main {
     .foto {
       grid-area: foto;
       margin-right: 250px;
-      margin-left: -250px;
       img {
         width: 500px;
         height: 600px;
@@ -420,8 +426,8 @@ main {
     .izquierda {
       grid-area: izquierda;
       margin-left: 150px;
-      margin-right: 150px;
-      width: 600px;
+
+      width: 500px;
       height: 600px;
       h2 {
         font-family: $lora;

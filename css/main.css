@@ -874,34 +874,35 @@ main section.tours-list.tours .margen4 {
 main .islas2 {
   margin-top: -30px;
   display: grid;
+  margin-left: auto;
+  margin-right: auto;
   grid-template-areas: "foto derecha"; }
   main .islas2 .foto {
     grid-area: foto;
-    margin-right: -250px;
     margin-left: 150px; }
     main .islas2 .foto img {
       width: 500px;
       height: 600px; }
   main .islas2 .derecha {
     grid-area: derecha;
-    margin-right: 50px;
-    width: 600px;
+    margin-right: 250px;
+    width: 500px;
     height: 600px; }
     main .islas2 .derecha h2 {
       font-family: "Lora", serif;
-      margin-left: 150px;
+      margin-left: 50px;
       margin-top: 50px;
       font-size: 48px;
       text-align: start; }
     main .islas2 .derecha img.w-25 {
-      margin-left: 150px; }
+      margin-left: 50px; }
     main .islas2 .derecha p {
-      margin-left: 150px;
+      margin-left: 50px;
       margin-right: 150px;
       font-family: "Barlow", sans-serif;
       font-size: 18px; }
     main .islas2 .derecha button {
-      margin-left: 150px;
+      margin-left: 50px;
       background-color: #ffffff;
       font-weight: 600;
       border: none;
@@ -917,7 +918,7 @@ main .islas2 {
     main .islas2 .derecha a:hover {
       color: #92be3e; }
     main .islas2 .derecha img.w-25.second {
-      margin-left: 150px;
+      margin-left: 50px;
       margin-top: -700px; }
     main .islas2 .derecha .btn-planner {
       margin-left: -160px;
@@ -926,34 +927,35 @@ main .islas2 {
 main .puertoAysen2 {
   margin-top: -30px;
   display: grid;
+  margin-left: auto;
+  margin-right: auto;
   grid-template-areas: "foto derecha"; }
   main .puertoAysen2 .foto {
     grid-area: foto;
-    margin-right: -250px;
     margin-left: 150px; }
     main .puertoAysen2 .foto img {
       width: 500px;
       height: 600px; }
   main .puertoAysen2 .derecha {
     grid-area: derecha;
-    margin-right: 50px;
-    width: 600px;
+    margin-right: 250px;
+    width: 500px;
     height: 600px; }
     main .puertoAysen2 .derecha h2 {
       font-family: "Lora", serif;
-      margin-left: 150px;
+      margin-left: 50px;
       margin-top: 50px;
       font-size: 48px;
       text-align: start; }
     main .puertoAysen2 .derecha img.w-25 {
-      margin-left: 150px; }
+      margin-left: 50px; }
     main .puertoAysen2 .derecha p {
-      margin-left: 150px;
+      margin-left: 50px;
       margin-right: 150px;
       font-family: "Barlow", sans-serif;
       font-size: 18px; }
     main .puertoAysen2 .derecha button {
-      margin-left: 150px;
+      margin-left: 50px;
       background-color: #ffffff;
       font-weight: 600;
       border: none;
@@ -969,7 +971,7 @@ main .puertoAysen2 {
     main .puertoAysen2 .derecha a:hover {
       color: #92be3e; }
     main .puertoAysen2 .derecha img.w-25.second {
-      margin-left: 150px;
+      margin-left: 50px;
       margin-top: -700px; }
     main .puertoAysen2 .derecha .btn-planner {
       margin-left: -160px;
@@ -977,11 +979,13 @@ main .puertoAysen2 {
 
 main .manihuales2 {
   display: grid;
+  margin-left: auto;
+  margin-right: auto;
   grid-template-areas: "izquierda foto"; }
   main .manihuales2 .foto {
     grid-area: foto;
     margin-right: 250px;
-    margin-left: -250px;
+    margin-left: 0px;
     margin-top: 100px; }
     main .manihuales2 .foto img {
       width: 500px;
@@ -989,8 +993,7 @@ main .manihuales2 {
   main .manihuales2 .izquierda {
     grid-area: izquierda;
     margin-left: 150px;
-    margin-right: 150px;
-    width: 600px;
+    width: 500px;
     height: 600px;
     margin-top: 100px; }
     main .manihuales2 .izquierda h2 {
@@ -1028,19 +1031,20 @@ main .manihuales2 {
 main .puertoChaca2 {
   margin-top: -30px;
   display: grid;
+  margin-left: auto;
+  margin-right: auto;
   grid-template-areas: "izquierda foto"; }
   main .puertoChaca2 .foto {
     grid-area: foto;
     margin-right: 250px;
-    margin-left: -250px; }
+    margin-left: 0px; }
     main .puertoChaca2 .foto img {
       width: 500px;
       height: 600px; }
   main .puertoChaca2 .izquierda {
     grid-area: izquierda;
     margin-left: 150px;
-    margin-right: 150px;
-    width: 600px;
+    width: 500px;
     height: 600px; }
     main .puertoChaca2 .izquierda h2 {
       font-family: "Lora", serif;
@@ -1078,16 +1082,14 @@ main .resto-cafe {
   grid-template-areas: "izquierda foto"; }
   main .resto-cafe .foto {
     grid-area: foto;
-    margin-right: 250px;
-    margin-left: -250px; }
+    margin-right: 250px; }
     main .resto-cafe .foto img {
       width: 500px;
       height: 600px; }
   main .resto-cafe .izquierda {
     grid-area: izquierda;
     margin-left: 150px;
-    margin-right: 150px;
-    width: 600px;
+    width: 500px;
     height: 600px; }
     main .resto-cafe .izquierda h2 {
       font-family: "Lora", serif;
@@ -1124,7 +1126,7 @@ main section.tours-list.tours figure .carousel {
   width: 350px;
   height: 350px; }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   nav {
     margin-left: -50px; }
     nav .logo {
@@ -1145,7 +1147,7 @@ main section.tours-list.tours figure .carousel {
       nav .collapse.navbar-collapse a {
         font-weight: 600; }
   header {
-    min-width: 375px; }
+    min-width: 300px; }
     header .fixed {
       position: absolute;
       top: 100px;
